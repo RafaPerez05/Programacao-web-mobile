@@ -3,6 +3,7 @@
 require "produto.php";
 require "cliente.php";
 require "professor.php";
+require "diciplina.php";
 
 
 //Produto 
@@ -14,7 +15,8 @@ $cliente1 = new Cliente ("Ronaldo", 52125893800, "23/5/99","RJ","ronaldoPJL@eu.c
 //Professor
 $professor1 = new Professor ("Jorge", 52125893800, "Nao",27,"jorgeMatatorDeOnca@sobreisso.com","981617763",1564389910);
 
-
+//Diciplina
+$professor1 = new Professor ("banco de dados", "BD",83,"Jorge");
 
 
 ?>
