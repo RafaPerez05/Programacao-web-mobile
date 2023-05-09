@@ -4,16 +4,16 @@ class Cliente{
     //atributos
     private $nome;
     private $cpf;
-    private $dataNasc;
-    private $endereco;
+    private $mestrado;
+    private $idade;
     private $email;
     private $telefone;
     //Contrutores
-    function __construct($nome, $cpf, $dataNasc, $endereco, $email, $telefone){
+    function __construct($nome, $cpf, $mestrado, $idade, $email, $telefone){
         $this->nome = $nome;
         $this->cpf = $cpf;
-        $this->dataNasc = $dataNasc;
-        $this->endereco = $endereco;
+        $this->mestrado = $mestrado;
+        $this->idade = $idade;
         $this->email = $email;
         $this->telefone = $telefone;
     }
@@ -37,21 +37,21 @@ class Cliente{
         return($this->cpf);
     }
 
-    function set_dataNasc($dataNasc){
-        $this->dataNasc =$dataNasc;
+    function set_dataNasc($mestrado){
+        $this->mestrado =$mestrado;
     }
 
     function get_dataNasc(){
-        return($this->dataNasc);
+        return($this->mestrado);
     }
 
 
-    function set_endereco($endereco){
-        $this->endereco =$endereco;
+    function set_endereco($idade){
+        $this->idade =$idade;
     }
 
     function get_enderecor(){
-        return($this->endereco);
+        return($this->idade);
     }
 
     function set_email($email){

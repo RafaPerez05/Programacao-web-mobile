@@ -51,19 +51,7 @@ class Produto{
         return($this->valor);
     }
 
-    //métodos
-    function atualizar($taxa){
-        $x=($this->valor*$taxa) / 100;
-        echo "O Produto " . $this->nome . " custa " . ($this->valor*$taxa) / 100;
-        $this->valor =$this->valor + $x;
-    }
 
-    function nome(){
-        echo " O Produto " . $this->nome . " é da marca " . $this->marca
-        . " tem a cor " . $this->descricao ;
-
-         
-    }
 }
 ?>
 
